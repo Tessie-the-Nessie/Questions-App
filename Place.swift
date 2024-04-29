@@ -27,6 +27,7 @@ struct Place: View {
             }
             
         }
+        .padding(.all)
     }
 }
 

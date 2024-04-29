@@ -32,6 +32,7 @@ What strikes your fancy:
             }
             
         }
+        .padding(.all)
     }
 }
 

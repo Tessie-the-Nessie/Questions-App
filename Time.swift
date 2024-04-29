@@ -18,6 +18,7 @@ struct Time: View {
                 Text("Next Question")
             }
         }
+        .padding(.all)
     }
 }
 

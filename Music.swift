@@ -29,6 +29,7 @@ struct Music: View {
                 }
             
         }
+        .padding(.all)
     }
 }
 

@@ -38,6 +38,7 @@ What say you?
 //(userData["music"]
 
         }
+        .padding(.all)
     }
 }
 
