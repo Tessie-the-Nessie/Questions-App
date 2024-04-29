@@ -27,11 +27,11 @@ struct ContentView: View {
                     .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .font(.title)
                     .onSubmit() {
-                        userData["name"] = name //enter user inpout for one key
+                        userData["name"] = name //enter user input for one key
                     }
                 
                 NavigationLink(destination: Time()) {
-                    Text("Next Question")
+                    Text("Hit Enter, then click here!")
                 }
                 
             }

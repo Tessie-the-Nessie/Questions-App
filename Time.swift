@@ -15,7 +15,7 @@ struct Time: View {
                 }
             
             NavigationLink(destination: Style()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
         }
         .padding(.all)

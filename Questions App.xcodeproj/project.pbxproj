@@ -24,6 +24,7 @@
 		BD8FAFDF2BDEA4CC008E1B35 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FAFDE2BDEA4CC008E1B35 /* Type.swift */; };
 		BD8FAFE12BDEA4D5008E1B35 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FAFE02BDEA4D5008E1B35 /* Music.swift */; };
 		BD8FAFE32BDEA4E0008E1B35 /* End.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FAFE22BDEA4E0008E1B35 /* End.swift */; };
+		BD8FAFED2BE05DC1008E1B35 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FAFEC2BE05DC1008E1B35 /* Jump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		BD8FAFDE2BDEA4CC008E1B35 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
 		BD8FAFE02BDEA4D5008E1B35 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		BD8FAFE22BDEA4E0008E1B35 /* End.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = End.swift; sourceTree = "<group>"; };
+		BD8FAFEC2BE05DC1008E1B35 /* Jump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jump.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BD8FAFDE2BDEA4CC008E1B35 /* Type.swift */,
 				BD8FAFE02BDEA4D5008E1B35 /* Music.swift */,
 				BD8FAFE22BDEA4E0008E1B35 /* End.swift */,
+				BD8FAFEC2BE05DC1008E1B35 /* Jump.swift */,
 				BD8FAFA32BDE9936008E1B35 /* Questions App */,
 				BD8FAFB42BDE9937008E1B35 /* Questions AppTests */,
 				BD8FAFBE2BDE9937008E1B35 /* Questions AppUITests */,
@@ -290,6 +293,7 @@
 				BD8FAFD12BDEA418008E1B35 /* Time.swift in Sources */,
 				BD8FAFA72BDE9936008E1B35 /* ContentView.swift in Sources */,
 				BD8FAFDB2BDEA496008E1B35 /* Dessert.swift in Sources */,
+				BD8FAFED2BE05DC1008E1B35 /* Jump.swift in Sources */,
 				BD8FAFE32BDEA4E0008E1B35 /* End.swift in Sources */,
 				BD8FAFA52BDE9936008E1B35 /* Questions_AppApp.swift in Sources */,
 				BD8FAFD72BDEA469008E1B35 /* Place.swift in Sources */,

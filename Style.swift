@@ -23,7 +23,7 @@ struct Style: View {
                 }
             
             NavigationLink(destination: Weather()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

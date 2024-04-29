@@ -23,7 +23,7 @@ struct Beverage: View {
                 }
             
             NavigationLink(destination: Dessert()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
         }
         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

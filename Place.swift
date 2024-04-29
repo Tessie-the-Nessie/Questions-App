@@ -23,7 +23,7 @@ struct Place: View {
                 }
             
             NavigationLink(destination: Beverage()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

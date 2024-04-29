@@ -15,8 +15,9 @@ struct Food: View {
         VStack {
             Text("""
 What strikes your fancy:
-+ Crackers and artisan cheese
-+ Finger Sandwiches
+Crackers and artisan cheese
+or
+Finger Sandwiches
 """)
             
             
@@ -28,7 +29,7 @@ What strikes your fancy:
                 }
             
             NavigationLink(destination: Type()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

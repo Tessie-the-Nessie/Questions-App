@@ -24,7 +24,7 @@ struct Dessert: View {
                 }
             
             NavigationLink(destination: Food()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

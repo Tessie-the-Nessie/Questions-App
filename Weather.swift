@@ -15,7 +15,6 @@ struct Weather: View {
     var body: some View {
         VStack {
             Text("""
-//\(String(describing: userData["name"])), are you a rainy day lover?
 \(name), are you a rainy day lover?
 Sunshine forever?  Foggy?
 Maybe, Cloudy with a Chance of Meatballs?
@@ -25,11 +24,11 @@ Maybe, Cloudy with a Chance of Meatballs?
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 .onSubmit() {
-                    userData["weather"] = weather //enter user inpout for one key
+                    userData["weather"] = weather //enter user input for one key
                 }
             
             NavigationLink(destination: Place()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

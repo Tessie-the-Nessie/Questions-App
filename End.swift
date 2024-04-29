@@ -9,19 +9,28 @@ import SwiftUI
 
 struct End: View {
     
-
+    var name = (userData["name"])!
+    var timeOfDay = (userData["timeOfDay"])!
+    var style = (userData["style"])!
+    var weather = (userData["weather"])!
+    var place = (userData["place"])!
+    var beverage = (userData["beverage"])!
+    var dessert = (userData["dessert"])!
+    var food = (userData["food"])!
+    var type = (userData["type"])!
+    var music = (userData["music"])
     
     var body: some View {
         VStack {
             Text("""
-\(String(describing: userData["name"])), would you like to go a
- \(String(describing: userData["style"])) \(String(describing: userData["type"]))
- at the \(String(describing: userData["place"])) on a \(String(describing: userData["weather"])) day?
+\(name), would you like to go a
+ \(style) \(type)
+ at the \(weather) day?
 
-We could listen to \(String(describing: userData["music"])) while noshing on
-\(String(describing: userData["food"])), drinking \(String(describing: userData["beverage']"]))
+We could listen to \(music) while noshing on
+\(food), drinking \(beverage).
 
-Aftwards we could find a \(String(describing: userData["style"])) cafe and eat \(String(describing: userData["dessert"]))....
+Aftwards we could find a \(style) cafe and eat \(dessert)....
 
 What say you?
 """

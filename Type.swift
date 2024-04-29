@@ -15,7 +15,7 @@ struct Type: View {
         VStack {
             Text("Just a few more questions...")
            
-            TextField("What music do you like?", text: $type)
+            TextField("Are a picnic or table type of person?", text: $type)
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 .onSubmit() {
@@ -23,7 +23,7 @@ struct Type: View {
                 }
             
             NavigationLink(destination: Music()) {
-                Text("Next Question")
+                Text("Hit Enter, then click here!")
             }
             
         }

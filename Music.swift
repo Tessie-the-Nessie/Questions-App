@@ -10,23 +10,23 @@ import SwiftUI
 struct Music: View {
     
     @State var music = ""
-    var textTitleMusic = ""
+    
     var body: some View {
         
         
         VStack {
             Text("What music do you find relaxing?")
             
-            TextField("Relaxing Music:", text: $music)
-                .multilineTextAlignment(.center)
+            TextField("What do you like to listen to?", text: $music)
+                .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 .onSubmit() {
-                    userData["music"] = music //enter user inpout for one key
+                    userData["music"] = music //enter user input for one key
                 }
-            Text(textTitleMusic)
-                NavigationLink(destination: End()) {
-                    Text("Click me and see!")
-                }
+            
+            NavigationLink(destination: Jump()) {
+                Text("Hit Enter, then click here!")
+            }
             
         }
         .padding(.all)
