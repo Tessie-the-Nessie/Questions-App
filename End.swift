@@ -18,16 +18,20 @@ struct End: View {
     var dessert = (userData["dessert"])!
     var food = (userData["food"])!
     var type = (userData["type"])!
-    var music = (userData["music"])
+    var music = (userData["music"])!
     
     var body: some View {
         VStack {
+            
+            Image("invite")
+                .aspectRatio(contentMode: .fit)
+            
             Text("""
 \(name), would you like to go a
  \(style) \(type)
- at the \(weather) day?
+ at the \(place) on a \(weather) day?
 
-We could listen to \(music) while noshing on
+We could listen to \(music) music while noshing on
 \(food), drinking \(beverage).
 
 Aftwards we could find a \(style) cafe and eat \(dessert)....

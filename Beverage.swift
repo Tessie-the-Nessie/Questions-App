@@ -10,10 +10,11 @@ import SwiftUI
 struct Beverage: View {
 
     @State var beverage = ""
+    var name = (userData["name"])!
     
     var body: some View {
         VStack {
-            Text("Thirsty, \(String(describing: userData["name"]))?")
+            Text("Thirsty, \(name)?")
             
             TextField("Are you a coffee, tea, or hot chocolate drinker?", text: $beverage)
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

@@ -10,12 +10,15 @@ import SwiftUI
 struct Style: View {
     
     @State var style = ""
+    var name = (userData["name"])!
     
     var body: some View {
         VStack {
             Text("Fancy or Cozy?")
             
-            TextField("\(String(describing: userData["name"])): How do you see yourself?", text: $style)
+            //having trouble cleaning up text inside the TextField - want to retrieve data directly from directory but I can't do so without importing the Optional tag
+            
+            TextField("\(name): How do you see yourself?", text: $style)
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .font(.title)
                 .onSubmit() {
