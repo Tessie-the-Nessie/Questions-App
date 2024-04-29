@@ -18,7 +18,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            VStack { //passing variables between nav links is cumbersome - after a lot of trial and error, I remembered dictionaries... :)
+            VStack(alignment: .center) { //passing variables between nav links is cumbersome - after a lot of trial and error, I remembered dictionaries... :)
                 
                 Text("Hi!")
                 

@@ -4,7 +4,7 @@ struct Time: View {
     @State var timeOfDay = ""
     
     var body: some View {
-        VStack {
+        VStack(alignment: .center) {
             Text("Best time of Day: Morning - Afternoon - Evening - Night?")
             
             TextField("What's your preference?", text: $timeOfDay)

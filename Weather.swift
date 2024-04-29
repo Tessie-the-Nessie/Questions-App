@@ -13,7 +13,7 @@ struct Weather: View {
     var name = (userData["name"])!
     
     var body: some View {
-        VStack {
+        VStack(alignment: .center) {
             Text("""
 \(name), are you a rainy day lover?
 Sunshine forever?  Foggy?
